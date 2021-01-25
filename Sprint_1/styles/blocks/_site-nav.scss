@@ -19,7 +19,7 @@
   &__item{
       width: 50%;
       @include tablet {
-           margin-right: 56px; 
+           margin-right: 3.5rem; 
         }
   }
 
@@ -27,27 +27,34 @@
       color:$mercury;
       font-style:normal;
       font-weight:400;
-      font-size: 18px;
-      line-height:22px;
+      font-size: 1.125rem;
+      line-height:1.375rem;
       display:inline-block;
       width:100%;
       text-align: center;
-      padding-bottom: 8px;
+      padding-bottom: 0.5rem;
      
       @include tablet {
-          font-size: 14px;
-          line-height: 20px;
-          padding-bottom: 10px;
-          padding-top: 10px;  
+          font-size: 0.875rem;
+          line-height: 1.25rem;
+          padding-bottom: 0.625rem;
+          padding-top: 0.625rem;  
           margin-right: 56px;          
-        }         
+        }
+      @include desktop {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        padding-bottom: 0.625rem;
+        padding-top: 0.625rem;  
+         margin-right: 3.5rem;          
+        }               
 
       &:hover{
           color:$white;
           font-weight:500;
-          border-bottom: 5px solid rgba($white, 1);
+          border-bottom: 0.3125rem solid rgba($white, 1);
           @include tablet {
-          padding-bottom:22px;               
+          padding-bottom:1.375rem;               
           }
         }
     

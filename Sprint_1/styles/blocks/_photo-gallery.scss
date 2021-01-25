@@ -3,31 +3,31 @@
     @extend .container;
     background-color:$alabaster;
     height: 100%;   
-    padding:0 16px; 
+    padding:0 1rem; 
       
     @include tablet {
         margin: 0 auto;
-        padding: 0 24px;
+        padding: 0 1.5rem;
     }
     @include desktop {
         margin: 0 auto;
-        padding: 0 180px;
+        padding: 0 11.25rem;
         }
     
     &__title{
         margin:0 auto;
         color:$black;
         font-style: normal;
-        font-size: 24px;
+        font-size: 1.5rem;
         font-weight: 600;
-        line-height: 32px;
+        line-height: 2rem;
         text-align: left;
-        padding-top: 32px;
-        padding-bottom: 24px;
+        padding-top: 2rem;
+        padding-bottom: 1.5rem;
         overflow: auto;
         @include desktop {
-            padding-top: 48px;
-            padding-bottom: 64px;
+            padding-top: 3rem;
+            padding-bottom: 4rem;
         }
     
         
@@ -44,7 +44,7 @@
             }     
 
             @include desktop {
-                padding-bottom: 16px;
+                padding-bottom: 1rem;
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
@@ -54,11 +54,11 @@
             &--item{
                 margin: 0 auto;
                 height: auto;
-                padding-bottom: 16px;
+                padding-bottom: 1rem;
                 @include tablet {
                     margin-left: 0;
                     margin-right: 0;
-                    padding-bottom: 24px;
+                    padding-bottom: 1.5rem;
                     min-width: 15.6533vw; 
                     max-width: 31.113%;     
                     }

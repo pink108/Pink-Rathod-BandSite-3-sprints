@@ -5,14 +5,14 @@
     &__container{
         @extend .container;
         @include tablet {
-            padding:0 24px;
+            padding:0 1.5rem;
             display: flex;
             flex-direction: row;
             align-items: baseline;
           }
         
         @include desktop {
-            padding:0 180px;
+            padding:0 11.25rem;
             display: flex;
             flex-direction: row;
             align-items: baseline;
@@ -21,7 +21,7 @@
     
     &__brand{
         text-align: center;
-        padding:9px 16px 16px 16px;
+        padding:0.5625rem 1rem 1rem;
         display: flex;
         align-items: flex-start;
         justify-content:center;
@@ -32,16 +32,16 @@
         }
 
         @include tablet {
-            margin-right: 56px;
+            margin-right: 3.5rem;
             padding-left: 0;
             padding-right: 0;
-            padding-top: 32px;
-            padding-bottom: 32px;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
         }
 
         @include desktop {
-            padding-top: 32px;
-            padding-bottom: 32px;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
         }
     }
 }

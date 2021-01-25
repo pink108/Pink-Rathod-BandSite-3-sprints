@@ -6,20 +6,20 @@
     @include tablet {
         display: flex;
         justify-content: flex-start;
-        width: 50%;
+        min-width: 50%;
     }
     
     &--1{
         margin: 0 auto;
-        padding-bottom: 40px;
+        padding-bottom: 2.5rem;
         @include tablet {
             display: flex;
             white-space: nowrap;
             margin-left:0;
         }
         @include desktop{
-            font-size: 15px;
-            line-height: 17px;
+            font-size: 0.9275rem;
+            line-height: 1.0625rem;
             font-weight: 200;
         } 
 

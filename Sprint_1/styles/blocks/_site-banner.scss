@@ -3,20 +3,20 @@
     background:url('../assets/images/Banner.jpg');
     background-size: cover;
     background-position: top center;
-    height:183px;
+    min-height:183px;
     max-width: 100%;
-    padding:0 16px;
+    padding:0 1rem;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     @include tablet {
-        padding:0 24px;
-        height:400px;
+        padding:0 1.5rem;
+        min-height:400px;
     }
     @include desktop {
-        padding:0 180px;
-        height:670px;
+        padding:0 11.25rem;
+        min-height:670px;
     }
 
     &_container{
@@ -28,12 +28,12 @@
         color: $white;
         font-style:normal;
         font-weight:bold;
-        font-size: 24px;
-        line-height:32px;
+        font-size: 1.5rem;
+        line-height:2rem;
 
         @include tablet {
-            font-size: 60px;
-            line-height:68px;
+            font-size: 3.75rem;
+            line-height:4.25rem;
         }
     }
     
