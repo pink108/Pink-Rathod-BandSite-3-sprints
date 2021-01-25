@@ -1,0 +1,40 @@
+// site- banner
+.site-banner{
+    background:url('../assets/images/Banner.jpg');
+    background-size: cover;
+    background-position: top center;
+    height:183px;
+    max-width: 100%;
+    padding:0 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @include tablet {
+        padding:0 24px;
+        height:400px;
+    }
+    @include desktop {
+        padding:0 180px;
+        height:670px;
+    }
+
+    &_container{
+        @extend .container;
+        height: 100%;        
+    }
+    
+    &__heading{
+        color: $white;
+        font-style:normal;
+        font-weight:bold;
+        font-size: 24px;
+        line-height:32px;
+
+        @include tablet {
+            font-size: 60px;
+            line-height:68px;
+        }
+    }
+    
+}

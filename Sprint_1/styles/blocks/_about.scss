@@ -1,0 +1,155 @@
+.about{
+     
+    &__container{
+        margin:0 auto;
+        @extend .container;
+        height: 100%;   
+        padding:0 16px; 
+      
+        @include tablet {
+           margin: 0 auto;
+           padding: 0 24px;
+        }
+        @include desktop {
+           margin: 0;
+           padding: 0 180px;
+        }
+    }
+
+    &__heading{
+        margin:0 auto;
+        padding-top: 32px;
+        font-weight: 600;
+        font-size:24px;
+        line-height: 32px;
+        overflow: auto;
+        @include tablet {
+            font-size:36px;
+            line-height:44px; 
+        }
+        @include desktop {
+            padding-top:48px;
+        }
+    }
+
+    &__deskcontainer{
+         @include desktop {
+            margin:0 auto; 
+            max-width: 896px;
+          }
+    }
+
+    &__image{
+            padding-top:24px;
+            padding-bottom: 24px;
+            height: auto;
+            @include desktop {
+                padding-top:48px;
+                padding-bottom:48px;
+            }
+    }
+        
+    &__testimonial{
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 22px;
+            margin:0 auto;
+            padding-bottom: 32px;
+            overflow: auto;
+            @include tablet {
+                font-size:24px;
+                line-height:32px; 
+            }
+            @include desktop {
+                padding-bottom: 40px;
+            }
+        
+        &--name{
+                margin: 0 auto;
+                font-weight: 500;
+                font-size:14px;
+                line-height:22px;
+                padding-bottom: 40px;
+                overflow: auto;
+                @include tablet {
+                    font-size:16px;
+                    line-height:24px; 
+                    font-weight: 600;
+                }
+                @include desktop {
+                    padding-bottom: 56px;
+                }
+            }
+    }
+
+    &__artistname{
+            margin: 0 auto;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 22px;
+            padding-bottom: 24px;
+            overflow: auto;
+            @include tablet {
+                font-size:24px;
+                line-height:32px; 
+            }
+            @include desktop {
+                padding-bottom: 32px;
+            }
+        }
+        
+    &__artistdescription{
+            margin: 0 auto;
+            padding-bottom: 40px;
+            overflow: auto;
+            @include tablet {
+            display: flex;  
+            }
+            @include desktop {
+                display: flex; 
+                padding-bottom: 48px; 
+            }
+            &--copy1{
+                margin: 0;
+                padding: 0;
+                font-size: 13px;
+                font-weight: 500;
+                line-height: 18px;
+                padding-bottom: 24px;
+                @include tablet {
+                    font-size:16px;
+                    line-height:24px;
+                    font-weight: 400;
+                    padding-bottom: 0;
+                    padding-right: 24px; 
+                }
+                @include desktop {
+                    width:50%;
+                    padding-bottom:0;
+                    padding-right: 40px;
+                }
+            }
+        
+            &--copy2{
+                margin:0;
+                padding:0;
+                font-size: 13px;
+                font-weight: 500;
+                line-height: 18px;
+                
+                @include tablet {
+                    font-size:16px;
+                    line-height:24px;
+                    font-weight: 400;
+                    padding-bottom: 0;
+                }
+                @include desktop {
+                    width:50%;
+                    padding-bottom: 0px;
+                    padding-right: 40px;
+                }
+            }
+
+        }
+    
+}

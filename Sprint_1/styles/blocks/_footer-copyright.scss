@@ -1,0 +1,28 @@
+.site-footer__copyright{
+    color:$white;
+    margin:0;
+    padding:0;
+    overflow: auto;
+    @include tablet {
+        display: flex;
+        justify-content: flex-start;
+        width: 50%;
+    }
+    
+    &--1{
+        margin: 0 auto;
+        padding-bottom: 40px;
+        @include tablet {
+            display: flex;
+            white-space: nowrap;
+            margin-left:0;
+        }
+        @include desktop{
+            font-size: 15px;
+            line-height: 17px;
+            font-weight: 200;
+        } 
+
+    }
+
+}
