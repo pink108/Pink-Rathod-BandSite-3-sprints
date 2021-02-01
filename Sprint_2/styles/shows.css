@@ -1384,6 +1384,17 @@ a {
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .showsite-banner__sidebyside {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .showsite-banner__heading {
   margin: 0 auto;
   color: #FFFFFF;
@@ -1407,6 +1418,11 @@ a {
     margin: 0 auto;
     font-size: 3.75rem;
     line-height: 4.25rem;
+    width: 50%;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -1424,6 +1440,7 @@ a {
 @media screen and (min-width: 1440px) {
   .showsite-banner__player {
     width: 50%;
+    margin-left: 4rem;
   }
 }
 /*# sourceMappingURL=shows.css.map */

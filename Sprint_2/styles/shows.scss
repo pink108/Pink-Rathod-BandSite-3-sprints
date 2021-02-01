@@ -30,7 +30,8 @@
         @extend .container;
         height: 100%; 
         @include desktop{
-            // display: flex;
+           // display: flex;
+            
         }
     }
     &__title{
@@ -53,7 +54,13 @@
         font-weight: 600;
         padding-top:10rem;
         padding-bottom: 3rem;
-        //display: flex;
+        }
+    }
+
+    &__sidebyside{
+        @include desktop{
+            display: flex;
+            align-items: center;
         }
     }
 
@@ -75,8 +82,10 @@
         @include desktop {
             margin:0 auto;
             font-size: 3.75rem;
-            line-height:4.25rem;        
-        
+            line-height:4.25rem;
+            width: 50%;
+            margin:0;
+            display: flex;           
         }
     }
 
@@ -89,6 +98,8 @@
         }
         @include desktop {
             width: 50%;
+            margin-left: 4rem;
+            
         }
     }
 }
