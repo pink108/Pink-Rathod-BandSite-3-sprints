@@ -410,7 +410,7 @@ a {
   .shows__heading {
     padding-bottom: 0;
     padding-top: 3rem;
-    padding-right: 172px;
+    padding-right: 10.75rem;
     margin-left: 0;
     margin-right: 0;
   }
@@ -440,7 +440,7 @@ a {
   .shows__list {
     margin: 0 auto;
     padding: 0 11.25rem;
-    margin-left: 259px;
+    margin-left: 16.18rem;
   }
 }
 
@@ -475,8 +475,8 @@ a {
 
 .shows__datehidden {
   margin: 0 auto;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   font-weight: 500;
   color: #AFAFAF;
 }
@@ -490,16 +490,16 @@ a {
 @media screen and (min-width: 1440px) {
   .shows__datehidden {
     margin: 0 auto;
-    padding-top: 45px;
-    font-size: 14px;
-    line-height: 22px;
+    padding-top: 2.81rem;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
   }
 }
 
 .shows__venuehidden {
   margin: 0 auto;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   font-weight: 500;
   color: #AFAFAF;
 }
@@ -512,16 +512,16 @@ a {
 
 @media screen and (min-width: 1440px) {
   .shows__venuehidden {
-    padding-top: 45px;
-    font-size: 14px;
-    line-height: 22px;
+    padding-top: 2.812rem;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
   }
 }
 
 .shows__locationhidden {
   margin: 0 auto;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   font-weight: 500;
   color: #AFAFAF;
 }
@@ -534,9 +534,9 @@ a {
 
 @media screen and (min-width: 1440px) {
   .shows__locationhidden {
-    padding-top: 45px;
-    font-size: 14px;
-    line-height: 22px;
+    padding-top: 2.812rem;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
   }
 }
 
@@ -552,10 +552,10 @@ a {
 
 @media screen and (min-width: 1440px) {
   .shows__emptyhidden {
-    padding-top: 45px;
-    padding-bottom: 40px;
-    font-size: 14px;
-    line-height: 22px;
+    padding-top: 2.812rem;
+    padding-bottom: 2.5rem;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
   }
 }
 
@@ -573,9 +573,9 @@ a {
 
 .shows__date {
   margin: 0 auto;
-  padding-bottom: 16px;
-  font-size: 16px;
-  line-height: 24px;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   font-weight: 500;
   color: #AFAFAF;
 }
@@ -595,9 +595,9 @@ a {
 .shows__dateinput {
   margin: 0 auto;
   color: #323232;
-  padding-bottom: 24px;
-  font-size: 16px;
-  line-height: 24px;
+  padding-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -609,15 +609,15 @@ a {
 @media screen and (min-width: 1440px) {
   .shows__dateinput {
     width: 25%;
-    padding-top: 40px;
+    padding-top: 2.5rem;
   }
 }
 
 .shows__venue {
   margin: 0 auto;
-  padding-bottom: 16px;
-  font-size: 16px;
-  line-height: 24px;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   font-weight: 500;
   color: #AFAFAF;
 }
@@ -637,9 +637,9 @@ a {
 .shows__venueinput {
   margin: 0 auto;
   color: #323232;
-  padding-bottom: 24px;
-  font-size: 16px;
-  line-height: 24px;
+  padding-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -651,15 +651,15 @@ a {
 @media screen and (min-width: 1440px) {
   .shows__venueinput {
     width: 25%;
-    padding-top: 40px;
+    padding-top: 2.5rem;
   }
 }
 
 .shows__location {
   margin: 0 auto;
-  padding-bottom: 16px;
-  font-size: 16px;
-  line-height: 24px;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   font-weight: 500;
   color: #AFAFAF;
 }
@@ -679,9 +679,9 @@ a {
 .shows__locationinput {
   margin: 0 auto;
   color: #323232;
-  padding-bottom: 32px;
-  font-size: 16px;
-  line-height: 24px;
+  padding-bottom: 2rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -693,7 +693,7 @@ a {
 @media screen and (min-width: 1440px) {
   .shows__locationinput {
     width: 25%;
-    padding-top: 40px;
+    padding-top: 2.5rem;
   }
 }
 
@@ -701,29 +701,29 @@ a {
   width: 100%;
   background-color: #323232;
   color: #FFFFFF;
-  border-radius: 5px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 16px;
-  line-height: 24px;
+  border-radius: 0.3125rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   font-weight: 600;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 768px) {
   .shows__button {
     width: 25%;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .shows__button {
-    margin-top: 16px;
-    margin-bottom: 16px;
-    font-size: 14px;
-    line-height: 22px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
     font-weight: 500;
   }
 }
@@ -732,7 +732,7 @@ a {
   margin: 0;
   border: 0;
   border-top: 1px solid #E1E1E1;
-  margin-top: 24px;
+  margin-top: 1.5rem;
 }
 
 .comments__conversations {
@@ -811,7 +811,7 @@ a {
   width: 48px;
   height: 48px;
   border-radius: 90%;
-  margin: 20px 20px 0 0;
+  margin: 1.25rem 1.25rem 0 0;
 }
 
 @media screen and (min-width: 1440px) {
@@ -824,10 +824,10 @@ a {
   margin: 0 auto;
   color: #AFAFAF;
   font-family: AvenirNext LT Pro;
-  font-size: 14px;
-  line-height: 22px;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
   font-weight: 500;
-  padding-bottom: 8px;
+  padding-bottom: 0.5rem;
 }
 
 .comments__forminput1 {
@@ -835,18 +835,18 @@ a {
   height: 48px;
   border: 1px solid #AFAFAF;
   background-color: #FAFAFA;
-  border-radius: 4px;
-  padding-left: 16px;
+  border-radius: 0.25rem;
+  padding-left: 1rem;
   font-family: AvenirNext LT Pro;
-  font-size: 13px;
-  line-height: 18px;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
   font-weight: 400;
   color: #323232;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 
 .comments__forminput1:active {
-  border: 2px solid red;
+  border: 0.125rem solid #323232;
 }
 
 .comments__forminput2 {
@@ -854,42 +854,42 @@ a {
   height: 96px;
   border: 1px solid #AFAFAF;
   background-color: #FAFAFA;
-  border-radius: 4px;
-  padding-left: 16px;
-  padding-top: 13px;
+  border-radius: 0.25rem;
+  padding-left: 1rem;
+  padding-top: 0.8125rem;
   font-family: AvenirNext LT Pro;
-  font-size: 13px;
-  line-height: 18px;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
   font-weight: 400;
   color: #323232;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 
 .comments__forminput2:active {
-  border: 2px solid #323232;
+  border: 0.125rem solid #323232;
 }
 
 .comments__formsubmit {
   width: 100%;
   font-family: AvenirNext LT Pro;
-  font-size: 14px;
-  line-height: 22px;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
   font-weight: 500;
   color: #FFFFFF;
   background-color: #323232;
-  border-radius: 4px;
-  padding-top: 11px;
-  padding-bottom: 11px;
-  margin-bottom: 32px;
+  border-radius: 0.25rem;
+  padding-top: 0.6875rem;
+  padding-bottom: 0.6875rem;
+  margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 768px) {
   .comments__formsubmit {
     width: 36%;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 16px;
-    line-height: 24px;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
     display: block;
     margin-left: auto;
     margin-right: 0;
@@ -898,14 +898,14 @@ a {
 
 @media screen and (min-width: 768px) {
   .comments__formsubmit {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0.93rem;
+    padding-right: 0.93rem;
   }
 }
 
 .commentlist_divider {
   border: 0;
-  border-top: 1px solid #E1E1E1;
+  border-top: 0.0625rem solid #E1E1E1;
   margin: 0;
 }
 
@@ -965,7 +965,7 @@ a {
 
 .commentlist__divider {
   border: 0;
-  border-top: 1px solid #E1E1E1;
+  border-top: 0.0625rem solid #E1E1E1;
   margin: 0;
 }
 
@@ -990,7 +990,7 @@ a {
   width: 48px;
   height: 48px;
   border-radius: 90%;
-  margin: 24px 16px 0 0;
+  margin: 1.5rem 1rem 0 0;
 }
 
 .commentlist__group {
@@ -1016,20 +1016,20 @@ a {
   font-size: 1rem;
   line-height: 1.375rem;
   font-weight: 600;
-  padding-top: 24px;
-  padding-bottom: 16px;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
 }
 
 @media screen and (min-width: 768px) {
   .commentlist__username {
-    padding-right: 10px;
+    padding-right: 0.625rem;
   }
 }
 
 .commentlist__timestamp {
   margin: 0;
   color: #AFAFAF;
-  padding-top: 24px;
+  padding-top: 1.5rem;
   margin-left: auto;
   margin-right: 0;
 }
@@ -1042,10 +1042,10 @@ a {
 
 .commentlist__usercomment {
   margin: 0;
-  font-size: 14px;
-  line-height: 22px;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
   font-weight: 400;
-  padding-bottom: 24px;
+  padding-bottom: 1.5rem;
 }
 
 .site-footer {
@@ -1336,52 +1336,51 @@ a {
   background-image: -webkit-gradient(linear, left top, right top, from(red), to(yellow));
   background-image: linear-gradient(to right, red, yellow);
   overflow: auto;
-  height: 472px;
+  height: 29.5rem;
 }
 
 @media screen and (min-width: 768px) {
   .showsite-banner {
     background: url("../assets/images/shows-banner2.jpg");
-    height: 670px;
+    height: 41.87rem;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .showsite-banner {
     background: url("../assets/images/shows-banner2.jpg");
-    height: 670px;
+    height: 41.87rem;
   }
 }
 
 .showsite-banner__container {
-  border: 2px dashed blue;
   height: 100%;
 }
 
 .showsite-banner__title {
   margin: 0 auto;
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   font-weight: 400;
   color: #FFFFFF;
-  padding-top: 64px;
+  padding-top: 4rem;
 }
 
 @media screen and (min-width: 768px) {
   .showsite-banner__title {
-    font-size: 24px;
-    line-height: 32px;
-    padding-top: 96px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding-top: 6rem;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .showsite-banner__title {
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
     font-weight: 600;
-    padding-top: 160px;
-    padding-bottom: 48px;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
   }
 }
 
@@ -1392,7 +1391,7 @@ a {
   font-weight: bold;
   font-size: 1.5rem;
   line-height: 2rem;
-  padding-bottom: 64px;
+  padding-bottom: 4rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -1413,7 +1412,7 @@ a {
 
 .showsite-banner__player {
   height: 50px;
-  padding-bottom: 114px;
+  padding-bottom: 7.12rem;
 }
 
 @media screen and (min-width: 768px) {

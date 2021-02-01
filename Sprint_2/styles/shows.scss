@@ -16,18 +16,17 @@
     @extend .site-banner;
     background-image: linear-gradient(to right, red , yellow);
     overflow: auto;
-    height: 472px;
+    height: 29.5rem;
      @include tablet{
         background:url('../assets/images/shows-banner2.jpg');
-        height:670px;
+        height:41.87rem;
      }
      @include desktop{
         background:url('../assets/images/shows-banner2.jpg');
-        height: 670px;
+        height: 41.87rem;
      }
 
     &__container{
-        border: 2px dashed blue;
         @extend .container;
         height: 100%; 
         @include desktop{
@@ -36,25 +35,25 @@
     }
     &__title{
         margin: 0 auto;
-        font-size:24px;
-        line-height:32px;
+        font-size:1.5rem;
+        line-height:2rem;
         font-weight:400;
         color:$white;
-        padding-top:64px;
+        padding-top:4rem;
+        
         @include tablet{
-        font-size:24px;
-        line-height:32px;
-        padding-top:96px;
+        font-size:1.5rem;
+        line-height:2rem;
+        padding-top:6rem;
         }
+        
         @include desktop{
-        font-size:36px;
-        line-height:44px;
+        font-size:2.25rem;
+        line-height:2.75rem;
         font-weight: 600;
-        padding-top:160px;
-        padding-bottom: 48px;
+        padding-top:10rem;
+        padding-bottom: 3rem;
         //display: flex;
-
-
         }
     }
 
@@ -65,7 +64,7 @@
         font-weight:bold;
         font-size: 1.5rem;
         line-height:2rem;
-        padding-bottom: 64px;
+        padding-bottom: 4rem;
         
 
         @include tablet {
@@ -83,7 +82,7 @@
 
     &__player{
         height: 50px;
-        padding-bottom: 114px;
+        padding-bottom: 7.12rem;
 
         @include tablet {
             width: 60%;
