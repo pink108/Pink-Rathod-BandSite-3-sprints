@@ -1,0 +1,95 @@
+@import '../styles/partials/variables';
+@import '../styles/partials/mixins';
+@import '../styles/partials/fonts';
+@import '../styles/partials/general';
+@import '../styles/blocks/site-header';
+@import '../styles/blocks/site-banner';
+@import '../styles/blocks/site-nav';
+@import '../styles/blocks/main-container';
+@import '../styles/blocks/shows';
+@import '../styles/blocks/site-footer';
+@import '../styles/blocks/footer-nav';
+@import '../styles/blocks/footer-contact';
+@import '../styles/blocks/footer-copyright';
+
+.showsite-banner{
+    @extend .site-banner;
+    background-image: linear-gradient(to right, red , yellow);
+    overflow: auto;
+    height: 472px;
+     @include tablet{
+        background:url('../assets/images/shows-banner2.jpg');
+        height:670px;
+     }
+     @include desktop{
+        background:url('../assets/images/shows-banner2.jpg');
+        height: 670px;
+     }
+
+    &__container{
+        border: 2px dashed blue;
+        @extend .container;
+        height: 100%; 
+        @include desktop{
+            // display: flex;
+        }
+    }
+    &__title{
+        margin: 0 auto;
+        font-size:24px;
+        line-height:32px;
+        font-weight:400;
+        color:$white;
+        padding-top:64px;
+        @include tablet{
+        font-size:24px;
+        line-height:32px;
+        padding-top:96px;
+        }
+        @include desktop{
+        font-size:36px;
+        line-height:44px;
+        font-weight: 600;
+        padding-top:160px;
+        padding-bottom: 48px;
+        //display: flex;
+
+
+        }
+    }
+
+    &__heading{
+        margin:0 auto;
+        color: $white;
+        font-style:normal;
+        font-weight:bold;
+        font-size: 1.5rem;
+        line-height:2rem;
+        padding-bottom: 64px;
+        
+
+        @include tablet {
+            margin:0 auto;
+            font-size: 3.75rem;
+            line-height:4.25rem;
+        }
+        @include desktop {
+            margin:0 auto;
+            font-size: 3.75rem;
+            line-height:4.25rem;        
+        
+        }
+    }
+
+    &__player{
+        height: 50px;
+        padding-bottom: 114px;
+
+        @include tablet {
+            width: 60%;
+        }
+        @include desktop {
+            width: 50%;
+        }
+    }
+}

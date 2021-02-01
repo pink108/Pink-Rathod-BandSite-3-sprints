@@ -1,0 +1,66 @@
+.footer-nav{
+
+    &__list{
+        padding: 0;
+        @include tablet {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+        }
+        @include desktop{
+            display:flex;
+            justify-content: flex-start;
+        } 
+    }
+
+    &__item{
+    list-style: none;
+    }
+
+    &__text{
+        color: $white;
+        font-size: 2.25rem;
+        font-weight: 600;
+        line-height: 2.75rem;
+        margin:0 auto;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+        @include tablet {
+            margin:0 auto;
+            padding-top: 3rem;
+            padding-bottom: 3.5rem;
+        }
+        @include desktop {
+            padding-right: 3.875rem;         
+        }
+    }
+
+    &__socialicon{
+        padding-top:0.3125rem;   
+
+        &--fb{
+            padding: 2rem;
+        }
+
+        &--twitter{
+            @include tablet {
+            padding-right:3.75rem;
+            }
+        }      
+    }
+
+    &__sitename{
+        color: $mercury;
+        font-size:1.5rem;
+        line-height:1.5rem;
+        min-width:120px;
+        margin:0 auto;
+        visibility: hidden;
+        @include tablet {
+            visibility: visible;
+        }
+        @include desktop{
+            padding-left:30.625rem;
+        } 
+    }
+}

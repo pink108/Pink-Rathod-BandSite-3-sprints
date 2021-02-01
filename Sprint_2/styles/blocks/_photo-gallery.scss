@@ -1,0 +1,75 @@
+// photo gallery 
+.photo-gallery{
+    @extend .container;
+    background-color:$alabaster;
+    height: 100%;   
+    padding:0 1rem; 
+      
+    @include tablet {
+        margin: 0 auto;
+        padding: 0 1.5rem;
+    }
+    @include desktop {
+        margin: 0 auto;
+        padding: 0 11.25rem;
+        }
+    
+    &__title{
+        margin:0 auto;
+        color:$black;
+        font-style: normal;
+        font-size: 1.5rem;
+        font-weight: 600;
+        line-height: 2rem;
+        text-align: left;
+        padding-top: 2rem;
+        padding-bottom: 1.5rem;
+        overflow: auto;
+        @include desktop {
+            padding-top: 3rem;
+            padding-bottom: 4rem;
+        }
+    
+        
+    }
+
+    &__grid{
+         margin: 0 auto;
+            @include tablet {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-content: space-evenly;
+            }     
+
+            @include desktop {
+                padding-bottom: 1rem;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-content: space-evenly;
+            }  
+            &--item{
+                margin: 0 auto;
+                height: auto;
+                padding-bottom: 1rem;
+                @include tablet {
+                    margin-left: 0;
+                    margin-right: 0;
+                    padding-bottom: 1.5rem;
+                    min-width: 15.6533vw; 
+                    max-width: 31.113%;     
+                    }
+                    @include desktop {
+                    margin-left: 0;
+                    margin-right: 0;
+                    width:24.03913vw;
+                    max-width: 31.853%;  
+                    }
+            }       
+    }
+    
+ }       
+ 

@@ -1,0 +1,246 @@
+.comments{
+
+    &__conversations{
+        @extend .container;
+        height: 100%;
+        padding: 0  1rem;
+        
+        @include tablet {
+            margin: 0 auto;
+            padding: 0 1.5rem;
+         }
+         @include desktop {
+            margin: 0;
+            padding: 0 11.25rem;
+         }
+    }
+
+    &__heading{
+        margin:0 auto;
+        padding-top: 2rem;
+        padding-bottom: 2.5rem;
+        font-weight: 600;
+        font-size:1.5rem;
+        line-height: 2rem;
+        overflow: auto;
+        @include tablet {
+            font-size:2.25rem;
+            line-height:2.75rem; 
+        }
+        @include desktop {
+            padding-bottom:3.5rem;
+            padding-top:3rem;
+        }
+    }
+
+    &__commentscontainer{
+        display: flex;
+        overflow: auto;
+        @include tablet {
+            display: flex;
+            justify-content: center;
+        }
+        @include desktop {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    &__userimage{
+        width: 48px;
+        height: 48px;
+        border-radius: 90%;
+        margin:20px 20px 0 0;
+        
+    }
+
+    &__form{
+        @include desktop {
+           min-width: 460px;
+        }       
+    }       
+
+    &__formlabel{
+        margin:0 auto;
+        color:$silver;
+        font-family: AvenirNext LT Pro;
+        font-size:14px;
+        line-height: 22px;
+        font-weight: 500;
+        padding-bottom: 8px;       
+    }
+
+    &__forminput1{
+        width: 100%;
+        height: 48px;
+        border: 1px solid $silver;
+        background-color: $alabaster;
+        border-radius:4px;
+        padding-left: 16px;
+        font-family: AvenirNext LT Pro;
+        font-size:13px;
+        line-height:18px;
+        font-weight: 400;
+        color:$black;
+        margin-bottom: 24px;
+
+        &:active{              
+            border: 2px solid $black;           
+        }
+    }
+   
+    &__forminput2{
+        width: 100%;
+        height: 96px;
+        border: 1px solid $silver;
+        background-color: $alabaster;
+        border-radius:4px;
+        padding-left: 16px;
+        padding-top: 13px;
+        font-family: AvenirNext LT Pro;
+        font-size:13px;
+        line-height:18px;
+        font-weight: 400;
+        color:$black;
+        margin-bottom: 24px;       
+    
+        &:active{
+            border: 2px solid $black;
+        }                
+    }
+
+    &__formsubmit{
+        width: 100%;
+        font-family: AvenirNext LT Pro;
+        font-size:14px;
+        line-height:22px;
+        font-weight: 500;
+        color:$white;
+        background-color:$black ;
+        border-radius: 4px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        margin-bottom: 32px;
+
+        @include tablet {
+            width: 36%;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size:16px;
+            line-height:24px;
+            display: block;
+            margin-left: auto;
+            margin-right: 0;
+        }
+
+        @include tablet {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }    
+}    
+
+.commentlist_divider{
+        border:0;
+        border-top: 1px solid $mercury;
+        margin: 0;
+    }
+
+// comment list style
+
+.commentlist{
+    list-style: none;
+    margin:0 auto;
+    padding:0;
+    overflow: auto;
+    @include tablet {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;       
+    }
+    
+    &__container{
+        @include tablet {
+            margin: 0 auto;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            max-width: 460px;          
+        }
+        
+        @include desktop {
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            max-width: 528px;
+        }
+    }
+
+    &__divider{
+        border:0;
+        border-top: 1px solid $mercury;
+        margin: 0;
+    }
+
+    &__item{
+        display: flex;
+        
+        @include desktop {
+            display: flex;
+            justify-content: center;
+        }           
+    }
+
+    &__userimage{
+        width: 48px;
+        height: 48px;
+        border-radius: 90%;
+        margin:24px 16px 0 0;
+    }
+
+    &__group{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__commentgroup{
+        width: 100%;
+        display: flex;               
+    }
+
+    &__username{
+        margin: 0;
+        font-size: 1rem;
+        line-height: 1.375rem;
+        font-weight: 600;
+        padding-top: 24px;
+        padding-bottom: 16px;
+        @include tablet {
+         padding-right: 10px;
+        }     
+    }
+
+    &__timestamp{
+        margin:0;
+        color:$silver;
+        padding-top:24px;
+        margin-left: auto;
+        margin-right: 0;
+
+        @include tablet {
+          margin: 0;
+        }   
+    }
+
+    &__usercomment{
+        margin:0;
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 400;
+        padding-bottom: 24px;
+    }
+        
+
+}

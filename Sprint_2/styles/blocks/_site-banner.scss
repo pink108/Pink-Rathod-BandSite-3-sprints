@@ -1,0 +1,42 @@
+// site- banner
+.site-banner{
+    background-image: linear-gradient(to right, rgb(144, 214, 87) , rgb(123, 14, 173));
+    background-size: cover;
+    background-position: top center;
+    min-height:183px;
+    max-width: 100%;
+    padding:0 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @include tablet {
+        background-image: linear-gradient(to right, rgb(11, 199, 36) , rgb(18, 87, 44));
+        padding:0 1.5rem;
+        min-height:400px;
+    }
+    @include desktop {
+        background:url('../assets/images/Banner.jpg');
+        padding:0 11.25rem;
+        min-height:670px;
+    }
+
+    &__container{
+        @extend .container;
+        height: 100%;        
+    }
+    
+    &__heading{
+        color: $white;
+        font-style:normal;
+        font-weight:bold;
+        font-size: 1.5rem;
+        line-height:2rem;
+
+        @include tablet {
+            font-size: 3.75rem;
+            line-height:4.25rem;
+        }
+    }
+    
+}

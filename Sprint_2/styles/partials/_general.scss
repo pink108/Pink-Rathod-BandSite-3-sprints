@@ -1,0 +1,25 @@
+/* box-sizing fix */
+* { 
+    //border: 0.5px dashed grey;
+    box-sizing: border-box;
+  }
+  
+  /* root element */
+//   html{}
+  body {
+    margin: 0;
+    font-family: AvenirNext LT Pro, Roboto;
+  }
+
+  img {
+    max-width: 100%;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  .container{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
