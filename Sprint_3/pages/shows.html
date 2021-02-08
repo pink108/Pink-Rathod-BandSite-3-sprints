@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/main.css"/>
+    <title>Bandsite-Sprint3</title>
+</head>
+
+<body>
+
+    <!-- Site-header -->
+    <header class="site-header">
+        <div class="site-header__container">
+            <a class="site-header__brand" href="../index.html">  
+                <img class="site-header__logo" src="../assets/logos/Logo-bandsite.svg" alt="bandsite logo"> 
+            </a>
+            <nav class="site-nav">
+                <ul class="site-nav__list">
+                    <li class="site-nav__item">
+                        <a class=" site-nav__link " href="../index.html">Biography</a>
+                    </li>    
+                    <li class="site-nav__item">
+                       <a class="site-nav__link site-nav__link--active" href="./shows.html">Shows</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Site-Banner -->
+    <section class="showsite-banner"> 
+        <div class="showsite-banner__container">
+            <p class="showsite-banner__title">Woman Worldwide Album</p> <br/> 
+            <div class="showsite-banner__sidebyside">
+                <h1 class="showsite-banner__heading"> Waters of Nazareth x We Are your Friends x Phantom</h1>
+                <div class="showsite-banner__player">
+                    <iframe style= "width:100%;" height="150" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/509639583&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                    <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                        <!-- <a href="https://soundcloud.com/momomoyouth" title="MØ" target="_blank" style="color: #cccccc; text-decoration: none;">MØ</a> ·  -->
+                        <!-- <a href="https://soundcloud.com/momomoyouth/blur" title="Blur" target="_blank" style="color: #cccccc; text-decoration: none;">Blur</a> -->
+                    </div>
+                </div> 
+            </div>
+        
+        </div>
+    </section>     
+
+    <!-- Shows Section -->
+    <section class="shows">
+        <div class="shows__container">
+            <h2 class="shows__heading">Shows</h2>
+            <div class="shows__hiddenlist">
+                <div class="shows__titlehidden">
+                    <p class="shows__datehidden">DATES</p>
+                    <p class="shows__venuehidden">VENUE</p>
+                    <p class="shows__locationhidden">LOCATION</p>
+                    <p class="shows__emptyhidden"></p>
+                </div>
+            </div> 
+        </div>    
+    </section>  
+    <ul id="showslist" class= "shows__list"></ul>
+        
+
+    <!-- Site-footer -->
+    <footer class="site-footer">
+        <div class="site-footer__connect footer-connect">
+            <p class="footer-connect__text">Get In Touch</p>             
+            <div class="footer-connect__socialicon">
+                <a class="footer-connect__socialicon--insta" href="https://instagram.com"><img class="footer-connect__icon--insta" src="../assets/icons/SVG/Icon-instagram.svg" alt="instagram icon"></a>
+                <a class="footer-connect__socialicon--fb" href="https://facebook.com"><img class="footer-connect__icon--fb" src="../assets/icons/SVG/Icon-facebook.svg" alt="facebook icon"></a>
+                <a class="footer-connect__socialicon--twitter" href="https://twitter.com"><img class="footer-connect__icon--twitter" src="../assets/icons/SVG/Icon-twitter.svg" alt="twitter icon"></a>
+            </div>   
+            <p class="footer-connect__sitename">BANDSITE</p>        
+        </div>
+            
+        <div class="footer-contact">
+            <div class="footer-contact__card">
+                <div class="footer-contact__namecompany">
+                    <p class="footer-contact__name">Richard Rovner</p>
+                    <p class="footer-contact__company">The Bees Knees Management</p>
+                </div>
+                <div class="footer-contact__address">
+                    <p class="footer-contact__address--1">460 King Street West</p>
+                    <p class="footer-contact__address--2">Toronto, Ontario M5V 1L7</p>
+                </div>
+                <div class="footer-contact__email">
+                    <p class="footer-contact__mailto">info@thebeesknees.com</p>
+                </div>        
+            </div>
+
+            <div class="footer-contact__card">
+                <div class="footer-contact__namecompany">
+                    <p class="footer-contact__name">Marsha Vlasic</p>
+                    <p class="footer-contact__company">Artist Group International</p>
+                </div>
+                <div class="footer-contact__address">
+                    <p class="footer-contact__address--1">Booking Agent for</p>
+                    <p class="footer-contact__address--2">US / South America / Japan</p>
+                </div>
+                <div class="footer-contact__email">
+                    <p class="footer-contact__mailto">marsha.vlasic@artistgrp.com</p>
+                </div>
+            </div>        
+
+            <div class="footer-contact__card">
+                <div class="footer-contact__namecompany">
+                    <p class="footer-contact__name">Russel Warby</p>
+                    <p class="footer-contact__company">William Morrir Entertainment</p>
+                </div>
+                <div class="footer-contact__address">
+                    <p class="footer-contact__address--1">Booking Agent for</p>
+                    <p class="footer-contact__address--2">US / EU / AU</p>
+                </div>
+                <div class="footer-contact__email">
+                    <p class="footer-contact__mailto">RLW@wmeeentertainment.com</p>
+                </div>
+            </div>    
+        </div>
+
+        <div class="footer__copyright">
+            <p class="footer__copyright--text">Copyright The Bees Knees &copy; 2018 All Rights Reserved</p>
+        </div>    
+    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../scripts/shows.js"></script>  
+
+</body>
+</html>

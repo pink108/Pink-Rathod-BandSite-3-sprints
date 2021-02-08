@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css"/>
+    <title>Bandsite-Sprint3</title>
+</head>
+<body>
+
+    <!-- Site-header -->
+    <header class="site-header">
+        <div class="site-header__container">
+            <a class="site-header__brand" href="./index.html">  
+                 <img class="site-header__logo" src="./assets/logos/Logo-bandsite.svg" alt="bandsite logo"> 
+            </a>
+            <nav class="site-nav">
+                <ul class="site-nav__list">
+                    <li class="site-nav__item">
+                        <a class=" site-nav__link site-nav__link--active" href="./index.html">Biography</a>
+                    </li>    
+                    <li class="site-nav__item">
+                       <a class="site-nav__link" href="./pages/shows.html">Shows</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Site-Banner -->
+    <section class="site-banner"> 
+        <div class="site-banner__container">
+            <h1 class="site-banner__heading">Gaspard Auge & <br/> Xavier de Rosnay</h1>
+        </div>
+    </section>    
+
+    <main class="main-container">
+
+        <!-- About Artist -->
+        <section class="about">
+            <h2 class="about__heading">About The Musicians</h2>
+            <div class= "about__deskcontainer">
+                <img class="about__image" src="./assets/images/Justice-O2-Brixton-Academy-credit-Guifre-de-Peray.jpg" alt="artist playing image">
+                <p class="about__testimonial">"We are more comfortable with not fighting what comes naturally. Before we might have thought, ‘We need to be smarter than this’"</p>
+                <p class="about__testimonial--name">- Xavier de Rosnay</p>
+                <p class="about__artistname">Xavier de Rosnay & Gaspard Aug&eacute;</p>
+                
+                <div class="about__artistdescription">
+                    <p class="about__artistdescription--left">Xavier De Ronsay and Gaspard Aug&eacute; had a few mutual friends, who happened to run a record label, seeking tracks for a compilation. With an immediate connection, the pair decided to try their hand at making a song. That’s when they created their breakout single, We Are Your Friends – a feel-good, funk-filled, instant anthem that lost the remix contest, but won the attention of Pedro Winter, director of the newly founded Ed Banger Records, who boasted Daft Punk as former clients. One week later, they were in his office, signing a record deal.</p>
+                    <p class="about__artistdescription--right">Xavier De Ronsay and Gaspard Aug&eacute; had a few mutual friends, who happened to run a record label, seeking tracks for a compilation. With an immediate connection, the pair decided to try their hand at making a song. That’s when they created their breakout single, We Are Your Friends – a feel-good, funk-filled, instant anthem that lost the remix contest, but won the attention of Pedro Winter, director of the newly founded Ed Banger Records, who boasted Daft Punk as former clients. One week later, they were in his office, signing a record deal.</p>
+                </div>
+            </div>  
+        </section>
+
+        <!-- Photo Gallery -->
+        <section class="photo-gallery photo-gallery_background">
+            <h2 class="photo-gallery__title">Photo Gallery</h2>
+            <div class="photo-gallery__grid">
+                <img class="photo-gallery__grid--image" src="./assets/images/Photo-gallery-1.jpg" alt="photo gallery image 1">
+                <img class="photo-gallery__grid--image" src="./assets/images/Photo-gallery-2.jpg" alt="photo gallery image 2">
+                <img class="photo-gallery__grid--image" src="./assets/images/Photo-gallery-3.jpg" alt="photo gallery image 3">
+                <img class="photo-gallery__grid--image" src="./assets/images/Photo-gallery-4.jpg" alt="photo gallery image 4">
+                <img class="photo-gallery__grid--image" src="./assets/images/Photo-gallery-5.jpg" alt="photo gallery image 5">
+                <img class="photo-gallery__grid--image" src="./assets/images/Photo-gallery-6.jpg" alt="photo gallery image 6">
+                <img class="photo-gallery__grid--image" src="./assets/images/Photo-gallery-7.jpg" alt="photo gallery image 7">
+                <img class="photo-gallery__grid--image" src="./assets/images/Photo-gallery-8.jpg" alt="photo gallery image 8">
+                <img class="photo-gallery__grid--image" src="./assets/images/Photo-gallery-9.jpg" alt="photo gallery image 9">
+            </div> 
+        </section>
+
+        <!-- Join the Conversation -->
+        <section class="comments">
+            <div class="comments__conversations">
+                <h2 class="comments__heading">Join the Conversation</h2>
+                <div class= "comments__commentscontainer">
+                    <img class="comments__userimage" src="./assets/images/Mohan-muruge.jpg" alt="user image">
+                    <form id= "comments__form" class="comments__form">
+                        <label for="fname" class="comments__formlabel">NAME</label>
+                        <input type="text" id="fname" class="comments__forminput1 comments__forminput1--active" name="user_name" placeholder="Mohan Muruge" required/>
+                        
+                        <label for="comment" class="comments__formlabel">COMMENT</label>
+                        <textarea id="comment" class="comments__forminput2 comments__forminput2--active" name="comment_description" placeholder="Add a new comment" required></textarea>
+                        
+                        <button class="comments__formsubmit" type="submit">COMMENT</button>
+                    </form>
+                </div>
+            </div> 
+        </section> 
+        <ul id="commentlist" class= "commentlist"></ul>         
+    </main>  
+
+    <!-- Site-footer -->
+    <footer class="site-footer">   
+        <div class="site-footer__connect footer-connect">
+            <p class="footer-connect__text">Get In Touch</p>             
+            <div class="footer-connect__socialicon">
+                <a class="footer-connect__socialicon--insta" href="https://instagram.com"><img class="footer-connect__icon--insta" src="./assets/icons/SVG/Icon-instagram.svg" alt="instagram icon"></a>
+                <a class="footer-connect__socialicon--fb" href="https://facebook.com"><img class="footer-connect__icon--fb" src="./assets/icons/SVG/Icon-facebook.svg" alt="facebook icon"></a>
+                <a class="footer-connect__socialicon--twitter" href="https://twitter.com"><img class="footer-connect__icon--twitter" src="./assets/icons/SVG/Icon-twitter.svg" alt="twitter icon"></a>
+            </div>   
+            <p class="footer-connect__sitename">BANDSITE</p>        
+        </div>
+            
+        <div class="footer-contact">
+            <div class="footer-contact__card">
+                <div class="footer-contact__namecompany">
+                    <p class="footer-contact__name">Richard Rovner</p>
+                    <p class="footer-contact__company">The Bees Knees Management</p>
+                </div>
+                <div class="footer-contact__address">
+                    <p class="footer-contact__address--1">460 King Street West</p>
+                    <p class="footer-contact__address--2">Toronto, Ontario M5V 1L7</p>
+                </div>
+                <div class="footer-contact__email">
+                    <p class="footer-contact__mailto">info@thebeesknees.com</p>
+                </div>        
+            </div>
+        
+            <div class="footer-contact__card">
+                <div class="footer-contact__namecompany">
+                    <p class="footer-contact__name">Marsha Vlasic</p>
+                    <p class="footer-contact__company">Artist Group International</p>
+                </div>
+                <div class="footer-contact__address">
+                    <p class="footer-contact__address--1">Booking Agent for</p>
+                    <p class="footer-contact__address--2">US / South America / Japan</p>
+                </div>
+                <div class="footer-contact__email">
+                    <p class="footer-contact__mailto">marsha.vlasic@artistgrp.com</p>
+                </div>
+            </div>        
+        
+            <div class="footer-contact__card">
+                <div class="footer-contact__namecompany">
+                    <p class="footer-contact__name">Russel Warby</p>
+                    <p class="footer-contact__company">William Morrir Entertainment</p>
+                </div>
+                <div class="footer-contact__address">
+                    <p class="footer-contact__address--1">Booking Agent for</p>
+                    <p class="footer-contact__address--2">US / EU / AU</p>
+                </div>
+                <div class="footer-contact__email">
+                    <p class="footer-contact__mailto">RLW@wmeeentertainment.com</p>
+                </div>
+            </div>    
+        </div>
+
+        <div class="footer__copyright">
+            <p class="footer__copyright--text">Copyright The Bees Knees &copy; 2018 All Rights Reserved</p>
+        </div>    
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="./scripts/main.js"></script> 
+
+</body>
+</html>
